@@ -4,7 +4,8 @@ import numpy as np
 def nothing(x):
     print(x)
 
-img = np.zeros((100, 100, 3), np.uint8)
+# img = np.zeros((100, 100, 3), np.uint8)
+img = cv2.imread('/home/sk/Desktop/first.jpg',1)
 cv2.namedWindow('image')
 
 #adding tranbar
